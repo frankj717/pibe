@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>calculadora</title>
+        <link type="text/css" rel="stylesheet" href="css/estilos2.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swaprel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/estilos.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet"/>
+	    <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+<body>
+    <header class="header">
+        <div class="logo">
+           
+            <h1>JOSE MARIA ARGUEDAS</h1>
+        </div>
+        <nav class="nav-item">
+            
+            <a href="">Calculator</a>
+            
+        </nav>
+    </header>
+    <div id="appBg">
+        <form name="calculator">
+            <input type="textfield" name="ans" value="" autocomplete="off" readonly>
+
+            <input type="button" value="7" onclick="document.calculator.ans.value+='7'">
+            <input type="button" value="8" onclick="document.calculator.ans.value+='8'">
+            <input type="button" value="9" onclick="document.calculator.ans.value+='9'">
+            <input type="button" value="+" onclick="document.calculator.ans.value+='+'">
+            <br>
+            <input type="button" value="4" onclick="document.calculator.ans.value+='4'">
+            <input type="button" value="5" onclick="document.calculator.ans.value+='5'">
+            <input type="button" value="6" onclick="document.calculator.ans.value+='6'">
+            <input type="button" value="-" onclick="document.calculator.ans.value+='-'">
+            <br>
+            <input type="button" value="1" onclick="document.calculator.ans.value+='1'">
+            <input type="button" value="2" onclick="document.calculator.ans.value+='2'">
+            <input type="button" value="3" onclick="document.calculator.ans.value+='3'"> 
+            <input type="button" value="X" onclick="document.calculator.ans.value+='*'">
+            <br>
+            <input type="button" value="0" onclick="document.calculator.ans.value+='0'">
+            <input type="button" value="C"> 
+            <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+            <input type="button" value="/" onclick="document.calculator.ans.value+='/'">
+        </form>
+    </div>
+    
+</body>
+</html>
